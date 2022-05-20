@@ -1,0 +1,110 @@
+body {
+    height: 100vh;
+    background: url(../img/homeBg.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+#container img {
+    width: 650px;
+    height: 342px;
+    overflow: left;
+}
+
+#container {
+    width: 650px;
+    height: 342px;
+    overflow: hidden;
+}
+
+#picture {
+    width: 2600px;
+    height: 342px;
+    animation: switch 8s linear infinite;
+}
+
+#picture:hover {
+    animation-play-state: paused;
+    opacity: 0.5;
+}
+
+#picture:li:hover {
+    opacity: 1;
+}
+
+#picture li {
+    float: left;
+    list-style-type: none
+}
+
+@keyframes switch {
+
+    0%,
+    10% {
+        margin-left: 0;
+    }
+
+    30%,
+    40% {
+        margin-left: -650px;
+    }
+
+    60%,
+    70% {
+        margin-left: -1300px;
+    }
+
+    90%,
+    100% {
+        margin-left: -1950px;
+    }
+}
+
+.main {
+    padding-top: 540px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.main_top {
+    width: 1200px;
+    height: 342px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.download_pannel {
+    width: 236px;
+    height: 342px;
+    position: relative;
+}
+
+.download_btn,
+.guard_btn,
+.tiyan_btn {
+    background: url(../img/index.png) no-repeat;
+    display: inline-block;
+}
+
+.download_btn {
+    width: 236px;
+    height: 128px;
+    background-position: 0 -219px;
+}
+
+.guard_btn {
+    width: 236px;
+    height: 106px;
+    background-position: 0 -350px;
+}
+
+.tiyan_btn {
+    width: 236px;
+    height: 108px;
+    background-position: 0 -461px;
+}
+
+.download_pannel a {
+    display: block;
+}

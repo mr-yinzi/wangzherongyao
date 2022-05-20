@@ -1,0 +1,142 @@
+.banner {
+    width: 100%;
+    height: 420px;
+    background: url(../img/toUpdatebg.jpg) no-repeat top center;
+    overflow: hidden;
+}
+
+.container {
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.breadcrumbs {
+    padding: 20px 0;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.breadcrumbs .icon-home {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 4px;
+    background: url(../img/icon-bg.png) no-repeat -8px -80px;
+}
+
+.breadcrumbs a:link,
+.breadcrumbs a:visited {
+    color: #666;
+    text-decoration: underline;
+}
+
+.breadcrumbs em {
+    padding: 0 4px;
+}
+
+.list {
+    width: 100%;
+    overflow: hidden;
+    height: auto;
+}
+
+.list li {
+    width: 100%;
+    height: 384px;
+    list-style: none;
+    background-color: #f3f3f3;
+    margin-bottom: 55px;
+}
+
+.banner_bd {
+    position: relative;
+    display: block;
+    float: left;
+    width: 684px;
+    height: 384px;
+}
+
+img {
+    border: 0;
+}
+
+.num {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 5px;
+    width: 68px;
+    height: 67px;
+    background: url(../img/span-bg.png) no-repeat top center;
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+    z-index: 1;
+    color: #ffffff;
+}
+
+.exp_con {
+    float: left;
+    width: 478px;
+    height: 344px;
+    margin-top: 24px;
+    margin-left: 38px;
+    line-height: 30px;
+}
+
+.exp_con h3 {
+    color: #6e6d87;
+    font-size: 22px;
+    line-height: 50px;
+    font-weight: bold;
+}
+
+.tx {
+    font-size: 16px;
+    color: #6e6d87;
+}
+
+.refresh {
+    display: block;
+    color: #6e6d87;
+    font-size: 16px;
+    margin-top: 16px;
+    font-weight: bold;
+}
+
+.exp_list {
+    width: 100%;
+    height: 162px;
+}
+
+.exp_list img {
+    display: block;
+    float: left;
+    margin-top: 4px;
+}
+
+.exp_list div {
+    width: 330px;
+    height: 112px;
+    float: left;
+    margin-left: 7px;
+}
+
+.tx {
+    font-size: 16px;
+    color: #6e6d87;
+}
+
+.checkNewMes {
+    display: block;
+    width: 126px;
+    height: 40px;
+    border-radius: 2px;
+    background: url(../img/page-bg.png);
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 40px;
+    text-align: center;
+}

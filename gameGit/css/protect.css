@@ -1,0 +1,125 @@
+body {
+    background: url(../img/protectBg.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.content {
+    box-sizing: border-box;
+    width: 80%;
+    margin: 180px auto 0;
+    color: #fff;
+}
+
+h4 {
+    font-size: 48px;
+    color: #fff;
+    font-weight: bold;
+    line-height: 54px;
+    height: 54px;
+}
+
+h5 {
+    font-size: 24px;
+    color: #fff;
+    line-height: 27px;
+    margin-top: 20px;
+    font-weight: 100;
+}
+
+.center-box {
+    width: 1440 px;
+    margin: 90px auto 0;
+    position: relative;
+    transform: scale(0.8);
+}
+
+.center-box .card {
+    width: 545px;
+    height: 548px;
+    padding: 70px 100px 0 80px;
+    position: absolute;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.card1 {
+    background: url(../img/protectBg1.png) no-repeat;
+    top: 0px;
+    left: 0;
+    z-index: 5;
+}
+
+.card2 {
+    background: url(../img/protectBg2.png) no-repeat;
+    top: 0px;
+    left: 447px;
+    z-index: 5;
+}
+
+.card3 {
+    background: url(../img/protectBg3.png) no-repeat;
+    top: 0px;
+    left: 895px;
+    z-index: 5;
+}
+
+.card .little-title {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 22px;
+    height: 22 px;
+    width: 80%;
+    text-align: right;
+    position: absolute;
+    right: 50px;
+    top: 30px;
+    color: #fff;
+}
+
+.card .line {
+    margin: 20px auto 32px;
+    width: 380px;
+    height: 1px;
+    background: #fff;
+    opacity: 0.3;
+    margin-left: 40px;
+}
+
+.card .txt-title {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 42px;
+    color: #fff;
+    padding-left: 20px;
+}
+
+.card .txt {
+    font-size: 18px;
+    margin-top: 5 px;
+    color: #fff;
+    opacity: 0.6;
+    line-height: 32px;
+    width: 400px;
+    padding-left: 5px;
+}
+
+.card .btn-box a {
+    min-width: 140px;
+    line-height: 43px;
+    height: 43px;
+    text-align: center;
+    padding: 0 36px;
+    color: #fff;
+    border-radius: 40px;
+    margin-right: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    font-size: 18px;
+}
+
+.card3 .phone {
+    font-size: 18px;
+    line-height: 34px;
+    color: #fff;
+    margin-top: 36px;
+}

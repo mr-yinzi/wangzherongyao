@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            height: 100vh;
+            width: 100vw;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            position: relative;
+        }
+
+        video {
+            width: 110vw;
+            height: 110vh;
+            object-fit: cover;
+            position: absolute;
+            left: -5vw;
+            top: -5vh;
+            z-index: -1;
+        }
+
+        .centerBox {
+            margin: 0 auto;
+            width: 5px;
+            height: 100vh;
+        }
+
+        .centerBox p:first-child {
+            height: 45%;
+            background: url(../img/l1.png) no-repeat 0 bottom;
+        }
+
+        .centerBox p:last-child {
+            margin-top: 20vh;
+            height: 35%;
+            background: url(../img/l2.png) no-repeat 0 top;
+        }
+
+        .palyBox {
+            position: absolute;
+            top: 50%;
+            left: calc(50% - 50px);
+            height: 100px;
+            width: 100px;
+            background: url(../img/play-k.png) no-repeat center center;
+            animation: scaleDraw 3s ease-in-out infinite;
+            cursor: pointer;
+        }
+
+        .palyNow {
+            cursor: pointer;
+            position: absolute;
+            top: calc(50% + 20px);
+            left: calc(50% - 30px);
+            height: 60px;
+            width: 60px;
+            background: url(../img/play.png) no-repeat center center;
+        }
+
+        .sywz {
+            position: absolute;
+            top: 0;
+            left: calc(50% - 100px);
+            height: 50vh;
+            width: 200px;
+            background: url(../img/sywz.png) no-repeat center center;
+        }
+
+        @keyframes scaleDraw {
+            0% {
+                transform: scale(1);
+            }
+
+            25% {
+                transform: scale(0.6);
+            }
+
+            50% {
+                transform: scale(1);
+            }
+
+            75% {
+                transform: scale(0.6);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="centerBox">
+        <p></p>
+        <p></p>
+    </div>
+    <div class="palyBox">
+    </div>
+    <div class="palyNow">
+    </div>
+    <div class="sywz">
+    </div>
+    <video src="../img/Cut257.mpeg" muted="muted" autoplay="autoplay" loop="loop"
+        style="transform: translate(-43.4389px, 13.6635px);">
+    </video>
+    <span class="js-cursor-container"></span>
+    <script src="../js/cursor.js"></script>
+    <script type="text/javascript">
+        var toIndex1 = document.getElementsByClassName('palyBox')[0];
+        var toIndex2 = document.getElementsByClassName('palyNow')[0];
+
+        toIndex1.onclick = function () {
+            location.href = '../index.html'
+        }
+        toIndex2.onclick = function () {
+            location.href = '../index.html'
+        }
+    </script>
+</body>
+
+</html>
